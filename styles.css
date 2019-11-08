@@ -11,16 +11,17 @@ body {background-color: powderblue;}
 }
 
 .main {
-    background-color:#f1f1f1;
-    padding:20px;
-    float:left;
+    background-color:AliceBlue;
+    padding: 20px;
+    float:right;
     text-align:center;
-    width:60%; /* The width is 60%, by default */
+    width:80%; /* The width is 60%, by default */
 }
 .menu {
     float:left;
     width:20%;
     text-align:center;
+    padding: 8px;
 }
 .menu a {
     background-color:#e5e5e5;
@@ -38,6 +39,7 @@ body {background-color: powderblue;}
 }
 img {
     width:20%;
+    max-width: 150px;
 }
 a {
     text-decoration: none;
@@ -46,7 +48,7 @@ a {
 }
 
 /* Use a media query to add a break point at 800px: */
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
     .left,.menu, .main, .right, img {
         width:100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
