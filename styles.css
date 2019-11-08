@@ -1,0 +1,53 @@
+body {background-color: powderblue;}
+* {
+    box-sizing:border-box;
+}
+
+.left {
+    background-color:#2196F3;
+    padding:20px;
+    float:left;
+    width:20%; /* The width is 20%, by default */
+}
+
+.main {
+    background-color:#f1f1f1;
+    padding:20px;
+    float:left;
+    text-align:center;
+    width:60%; /* The width is 60%, by default */
+}
+.menu {
+    float:left;
+    width:20%;
+    text-align:center;
+}
+.menu a {
+    background-color:#e5e5e5;
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:100%;
+    color:black;
+}
+.right {
+    background-color:#4CAF50;
+    padding:20px;
+    float:left;
+    width:20%; /* The width is 20%, by default */
+}
+img {
+    width:20%;
+}
+a {
+    text-decoration: none;
+    font-family:Arial;
+    font-style:normal;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+    .left,.menu, .main, .right, img {
+        width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
