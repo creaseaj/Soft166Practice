@@ -16,7 +16,7 @@ body {background-color: powderblue;}
     float:right;
     margin:10px;
     text-align:center;
-    width:80%; /* The width is 60%, by default */
+    width:75%; /* The width is 60%, by default */
 }
 .menu {
     float:left;
