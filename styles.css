@@ -48,6 +48,21 @@ a {
     font-style:normal;
 }
 
+table {
+    width: 100%;
+}
+
+td {
+    width: 33.333%;
+    height:100px;
+    border: 6px solid #222;
+}
+td:after{
+    content: '';
+    display: block;
+    margin-top:100%;
+}
+
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width:600px) {
     .left,.menu, .main, .right, img {
