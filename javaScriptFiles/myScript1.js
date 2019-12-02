@@ -111,7 +111,7 @@ function checkForSymbol(input){
     return false;
 }
 function checkForUpperAndLower(input){
-    if(RegExp("[A-Z]").test(input) && RegExp("[a-z]").test(input)){
+    if(RegExp("[A-Z][a-z]|[a-z][A-Z]").test(input)){
         return true;
     }
     return false;
