@@ -1,11 +1,11 @@
 
-function getLightURI(element)
+function getLightURI(index)
 {
     var IP = "http://192.168.0.50/api/";
     var username = "stlaB2I6VZ8O80Qepc-1xfmLrHgyTFvB9IGupaQz";
     var lights = "/lights/";
     var URI = IP + username + lights;
-    return URI + element.attr("id")+"/";
+    return URI + index+"/";
 }
 
 function togglelight(element)
@@ -32,10 +32,3 @@ function togglelight(element)
     });
 }
 
-$(document).ready(function()
-{
-    $('td').click(function()
-    {
-        togglelight($(this));
-    })
-});
