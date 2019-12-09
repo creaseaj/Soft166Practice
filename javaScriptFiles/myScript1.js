@@ -81,7 +81,7 @@ function checkPassword(){
         document.getElementById("checkIcon5").innerText = "clear";
         Sec5 = false;
         turnLightRed(3);
-    }if(checkForSymbol(userField.value)){
+    }if(checkPasswordInAPI(userField.value)){
         document.getElementById("check6").style.color = "green";
         document.getElementById("checkIcon6").style.color = "green";
         document.getElementById("checkIcon6").innerText = "done";
@@ -127,6 +127,28 @@ function checkForUpperAndLower(input){
     }
     return false;
 }
+function checkPasswordInAPI(input){
+    var pointer = 500;
+    var change = 250;
+    for (i = 1; i < 11; i++) {
+        if (rockYou[i] == input){
+            return false;
+        }
+        if (input > rockYou[i]){
+            pointer = pointer + change;
+            change = change / 2;
+            console.log("Pointer moved to " + pointer);
+        }
+        else{
+            pointer = pointer - change;
+            change = change / 2;
+            console.log("Pointer moved to " + pointer);
+
+        }
+    }
+    return true;
+
+}
 
 function turnLightGreen(number){
     var lightState = {"hue" : 25500, "on":true, "sat": 125};
@@ -150,4 +172,15 @@ function getLightURI(index) {
     var lights = "/lights/";
     var URI = IP + username + lights;
     return URI + index + "/";
+}
+
+var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "https://moocher-io-common-passwords-v1.p.rapidapi.com/fal%253Bdkfj0%255B9j1",
+    "method": "GET",
+    "headers": {
+        "x-rapidapi-host": "moocher-io-common-passwords-v1.p.rapidapi.com",
+        "x-rapidapi-key": "15fe34fc30mshdb20c6a3eb4784ap195badjsnf8024394ab86"
+    }
 }
