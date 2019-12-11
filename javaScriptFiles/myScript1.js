@@ -130,18 +130,18 @@ function checkForUpperAndLower(input){
 function checkPasswordInAPI(input){
     var pointer = 500;
     var change = 250;
-    for (i = 1; i < 11; i++) {
-        if (rockYou[i] == input){
+    for (i = 0; i < 8; i++) {
+        if (rockYou[pointer] == input){
             return false;
         }
-        if (input > rockYou[i]){
+        if (input > rockYou[pointer]){
             pointer = pointer + change;
-            change = change / 2;
+            change = Math.round(change / 2);
             console.log("Pointer moved to " + pointer);
         }
         else{
             pointer = pointer - change;
-            change = change / 2;
+            change = Math.round(change / 2);
             console.log("Pointer moved to " + pointer);
 
         }
