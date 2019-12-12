@@ -2,53 +2,38 @@
 <html lang="en">
 <head>
     <script src="javaScriptFiles/myScript1.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <script src="javaScriptFiles/rockYouOrdered.js"></script>
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
             crossorigin="anonymous"></script>
     <title>Adam's Webpage</title>
 </head>
 <body>
-<div style="background-color:#ffeecc;padding:20px;text-align:center;">
-    <h1>Homepage</h1>
-</div>
-<div style="overflow:auto">
-    <div class="menu">
-        <a href="maps.html">Maps Viewer</a>
-        <a href="lightsPage.html">Lights</a>
-        <a href="https://www.linkedin.com/">LinkedIn</a>
-        <a href="https://github.com/creaseaj">GitHub</a>
-        <a href="https://twitter.com/">Twitter</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pages</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Index</a>
+                    <a class="dropdown-item" href="#">About</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Password Checker</a>
+                    <a class="dropdown-item" href="#">Lights Key</a>
+                </div>
+            </li>
+        </ul>
+        <h4>Home Page</h4>
     </div>
-
-    <div class="main">
-        <h2>Who am I?</h2>
-        <!--<img src="images/Adam_Profile_Photo.jpg" style="float:left;" alt="Photo of Adam">-->
-        <p>I'm a first year computer and information security at Plymouth University. I'm currently studying web development in the Soft166 module.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="main">
-        <h2>Javascript testing</h2>
-        <p>This section will be used to test java script.</p>
-        <button type="button" value="click" onclick="ShowAlert()">Click Me!</button>
-            Integer 1:<br>
-            <input type="text" id="int1" value="1">
-            <br>
-            Integer 2:<br>
-            <input type="text" id="int2" value="1">
-            <br><br>
-        <button type="button" onclick="runCalc()" value="add"> Add</button>
-        <button type="button" onclick="runCalc()" value="add"> Subtract</button>
-        <button type="button" onclick="runCalc()" value="add"> Divide</button>
-        <button type="button" onclick="runCalc()" value="add"> Multiply</button>
-        <p>Result: <span id="calcResult"></span></p>
-    </div>
-</div>
+</nav>
 </body>
 </html>

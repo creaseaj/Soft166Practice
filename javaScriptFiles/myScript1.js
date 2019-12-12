@@ -122,28 +122,25 @@ function checkForSymbol(input){
     return false;
 }
 function checkForUpperAndLower(input){
-    if(RegExp('[A-Z][a-z]|[a-z][A-Z]').test(input)){
+    if(RegExp("[A-Z].*[a-z]|[a-z].*[A-Z]").test(input)){
         return true;
     }
     return false;
 }
 function checkPasswordInAPI(input){
-    var pointer = 500;
-    var change = 250;
-    for (i = 0; i < rockYou.length;i++){
+    for (var i = 0; i < rockYou.length;i++){
+        console.log("Checking " + rockYou[i]);
         if (rockYou[i] == input){
             return false;
             break;
         }
-        else{
-            return true;
-        }
     }
+    return true;
 
 }
 
 function turnLightGreen(number){
-    var lightState = {"hue" : 25500, "on":true, "sat": 125};
+    var lightState = {"hue" : 25500, "on":true,"sat": 255,"bri":120};
     $.ajax({
         url: getLightURI(number) + "state/",
         type: "PUT",
@@ -151,7 +148,7 @@ function turnLightGreen(number){
     })
 }
 function turnLightRed(number){
-    var lightState = {"hue" : 0, "on":true,"sat": 125};
+    var lightState = {"hue" : 0, "on":true,"sat": 255,"bri":120};
     $.ajax({
         url: getLightURI(number) + "state/",
         type: "PUT",
