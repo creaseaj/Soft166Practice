@@ -68,7 +68,7 @@ function checkPassword(){
         Sec4 = false;
         turnLightRed(5);
     }
-    if(checkForSymbol(userField.value)){
+    if(checkForWords(userField.value)){
         document.getElementById("check5").style.color = "green";
         document.getElementById("checkIcon5").style.color = "green";
         document.getElementById("checkIcon5").innerText = "done";
@@ -136,7 +136,16 @@ function checkPasswordInAPI(input){
         }
     }
     return true;
-
+}
+function checkForWords(input){
+    for (var i = 0; i < commonWords.length;i++){
+        console.log("Checking " + commonWords[i]);
+        if (input.toUpperCase().includes(commonWords[i].toUpperCase())){
+            return false;
+            break;
+        }
+    }
+    return true;
 }
 
 function turnLightGreen(number){
