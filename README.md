@@ -10,7 +10,13 @@ jQuery - https://jquery.com/
 #### Youtube video
 
 #### Application screenshots
+##### Index page
 
+##### Lights page
+
+##### About page
+
+##### Key page
 #### Application Fact Sheet
 
 #### Evidence of multiple browser testing
