@@ -37,7 +37,13 @@ About is designed to show and explain the JavaScript functions used. This also c
 ##### Key
 Key provides indication for the lights and what they mean. This also shows what the colours mean as well. 
 #### Evidence of multiple browser testing
-
+These tests are screenshots of the webpages with the input boxes empty, and then with a password given which meets the input requirements.
+##### Chrome Tests
+![Chrome test with full password](https://github.com/creaseaj/Soft166Practice/blob/master/screenshots/ScreenshotBrowserChromePasswordMet.png)
+![Chrome test with empty password](https://github.com/creaseaj/Soft166Practice/blob/master/screenshots/ScreenshotBrowserChromePasswordUnmet.png)
+##### Firefox tests
+![Firefox test with full password](https://github.com/creaseaj/Soft166Practice/blob/master/screenshots/ScreenshotBrowserFirefoxPasswordMet.png)
+![Firefox test with empty password](https://github.com/creaseaj/Soft166Practice/blob/master/screenshots/ScreenshotBrowserFirefoxPasswordUnmet.png)
 #### Evidence of web accessibility testing and results
 This will be a comparison against the Web Content Accessibility Guidelines (Quick Reference) as shown [here](https://www.w3.org/WAI/WCAG21/quickref/)<br>
 1. Perceivable
