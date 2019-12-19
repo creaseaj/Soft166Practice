@@ -1,7 +1,5 @@
 function checkPassword(){
     var userField = document.getElementById("password");
-
-
     if(userField.value.length > 11){
         document.getElementById("check1").style.color = "green";
         document.getElementById("checkIcon1").style.color = "green";
