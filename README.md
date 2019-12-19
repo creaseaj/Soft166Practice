@@ -26,7 +26,7 @@ The cards have all been designed with shadow and bg-light to help provide focus 
 This application has 3 main features:
 - Ability to control Philips Hue lights
 - Password strength checker
-- Function designed to search arrays created from word lists
+    - Function designed to search arrays created from word lists
 ##### Index
 Index is the main page and provides access to the other pages while providing a brief explanation of their purpose.
 ##### Lights
