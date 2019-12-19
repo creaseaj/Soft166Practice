@@ -22,24 +22,32 @@
         </div>
     </div>
 </nav>
-<div class="container">
+<div class="mw-100 container">
     <div class="row justify-content-center" style="padding-bottom: 2rem;padding-top:2rem;">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="card shadow bg-light    ">
                 <div class="card-body">
                     <h2 class="card-title text-center">About</h2>
-                    <p class="card-text">This is an about page</p>
+                    <h4 class="card-title text-center">Functions Used</h4>
+                    <h5 class="card-title">checkPassword()</h5>
+                    <p class="card-text">This function is run each time the text is updated in the input box in the password checker. It runs the other functions and changes the colours of the cells based on those results.</p>
+                    <h5 class="card-title">checkForNumber()</h5>
+                    <p class="card-text">This is used to check whether the password contains a number using the isNaN() function</p>
+                    <h5 class="card-title">checkForSymbol(), checkForUpperAndLower()</h5>
+                    <p class="card-text">These two functions both use regular expressions to check whether the password meets their requirements</p>
+                    <h5 class="card-title">checkForCommonPasswords(), checkForWords()</h5>
+                    <p class="card-text">These two functions search through an array to see whether the password is in it or contains that word. The arrays were created by obtaining a word list from the internet and then them being formatted into an array using a python script created by myself.</p>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="row justify-content-center" style="padding-bottom: 2rem;">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="card shadow bg-light">
                 <div class="card-body">
                     <h2 class="card-title text-center">Disclaimer</h2>
-                    <p class="card-text">No responsibility is taken for the misuse of this web application. Suchas the use of the lights api script to control lights without permission or the lights being used harmfully.</p>
+                    <p class="card-text">No responsibility is taken for the misuse of this web application. Such as the use of the lights api script to control lights without permission or the lights being used harmfully.</p>
                 </div>
             </div>
         </div>

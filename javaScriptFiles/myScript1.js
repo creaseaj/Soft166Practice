@@ -1,13 +1,3 @@
-function ShowAlert() {
-    alert("This is an alert!")
-}
-
-function runCalc(){
-
-    var int1 = Number(document.getElementById("int1").value);
-    var int2 = Number(document.getElementById("int2").value);
-    document.getElementById("calcResult").innerText = int1 + int2;
-}
 function checkPassword(){
     var userField = document.getElementById("password");
 
@@ -81,7 +71,7 @@ function checkPassword(){
         document.getElementById("checkIcon5").innerText = "clear";
         Sec5 = false;
         turnLightRed(3);
-    }if(checkPasswordInAPI(userField.value)){
+    }if(checkForCommonPassword(userField.value)){
         document.getElementById("check6").style.color = "green";
         document.getElementById("checkIcon6").style.color = "green";
         document.getElementById("checkIcon6").innerText = "done";
@@ -127,7 +117,7 @@ function checkForUpperAndLower(input){
     }
     return false;
 }
-function checkPasswordInAPI(input){
+function checkForCommonPassword(input){
     for (var i = 0; i < rockYou.length;i++){
         console.log("Checking " + rockYou[i]);
         if (rockYou[i] == input){
@@ -170,15 +160,4 @@ function getLightURI(index) {
     var lights = "/lights/";
     var URI = IP + username + lights;
     return URI + index + "/";
-}
-
-var settings = {
-    "async": true,
-    "crossDomain": true,
-    "url": "https://moocher-io-common-passwords-v1.p.rapidapi.com/fal%253Bdkfj0%255B9j1",
-    "method": "GET",
-    "headers": {
-        "x-rapidapi-host": "moocher-io-common-passwords-v1.p.rapidapi.com",
-        "x-rapidapi-key": "15fe34fc30mshdb20c6a3eb4784ap195badjsnf8024394ab86"
-    }
 }

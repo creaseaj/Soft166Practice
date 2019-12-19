@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Lights Key</title>
@@ -22,13 +23,32 @@
         </div>
     </div>
 </nav>
-<div class="container">
+<div class="mw-100 container">
     <div class="row justify-content-center" style="padding-bottom: 2rem;padding-top:2rem;">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="card shadow bg-light">
                 <div class="card-body">
                     <h2 class="card-title text-center">Lights Key</h2>
-                    <p class="card-text"> This is a key for the lights</p>
+                    <h4>Light Positions</h4>
+                    <p class="card-text"> The positions of the requirements in the table show the position of the light changed on the wall when a requirement is met</p>
+                    <table class="table table-striped table-bordered">
+                        <tbody>
+                        <tr>
+                            <td><p id="check1" >At Least 12 Characters Long</p></td>
+                            <td><p id="check2" >Contains Numbers</p></td>
+                        </tr>
+                        <tr>
+                            <td><p id="check3">Contains Symbols</p></td>
+                            <td><p id="check4">Contains Upper Case Letters</p></td>
+                        </tr>
+                        <tr>
+                            <td><p id="check5">Contains no common words</p></td>
+                            <td><p id="check6">Is not a common password</p></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <h4>Light Colours</h4>
+                    <p>There are 2 colours for the lights; <span style="color:red;">red</span> and <span style="color:green;">green</span>. These colours are used to show whether the password requirement is met and is also represented by the check (<i alt="check Icon" class="material-icons" style="color:green;">done</i>) and cross (<i alt="check Icon" class="material-icons" style="color:red;">clear</i>)icon by it.</p>
                 </div>
             </div>
         </div>
