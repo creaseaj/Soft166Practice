@@ -4,7 +4,7 @@ Practice for my soft 166 module
 #### Sources
 RockYou password list - https://www.kaggle.com/wjburns/common-password-list-rockyoutxt<br>
 Common words list - https://gist.github.com/deekayen/4148741<br>
-Bootstrap - https://getbootstrap.com/
+Bootstrap - https://getbootstrap.com/<br>
 jQuery - https://jquery.com/
 
 #### Youtube video
