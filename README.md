@@ -27,6 +27,7 @@ This application has 3 main features:
 - Ability to control Philips Hue lights
 - Password strength checker
 - Function designed to search arrays created from word lists<br>
+
 #####Index
 Index is the main page and provides access to the other pages while providing a brief explanation of their purpose.
 #####Lights
