@@ -119,7 +119,6 @@ function checkForUpperAndLower(input){
 }
 function checkForCommonPassword(input){
     for (var i = 0; i < rockYou.length;i++){
-        console.log("Checking " + rockYou[i]);
         if (rockYou[i] == input){
             return false;
             break;
@@ -129,7 +128,6 @@ function checkForCommonPassword(input){
 }
 function checkForWords(input){
     for (var i = 0; i < commonWords.length;i++){
-        console.log("Checking " + commonWords[i]);
         if (input.toUpperCase().includes(commonWords[i].toUpperCase())){
             return false;
             break;
