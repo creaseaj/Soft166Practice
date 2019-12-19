@@ -19,7 +19,23 @@ jQuery - https://jquery.com/
 ##### Key page
 ![Image of key page](https://github.com/creaseaj/Soft166Practice/blob/master/screenshots/ScreenshotKey.png)
 #### Application Fact Sheet
-
+This application is designed to act as a password strength checker that uses the philips hue lights api to control philips hue bulbs. 
+This application contains 4 pages: Index, Lights, About, and Key.<br>
+The pages are designed using the same nav bar and card divs to give a uniform look. All the cards are the same width so that there is a more consistent feel throughout the website.
+The cards have all been designed with shadow and bg-light to help provide focus to the foreground.
+This application has 3 main features:
+- Ability to control Philips Hue lights
+- Password strength checker
+- Function designed to search arrays created from word lists.
+#####Index
+Index is the main page and provides access to the other pages while providing a brief explanation of their purpose.
+#####Lights
+Lights is the password strength checker and has the ability to change the colour of the lights. This contains 6 requirements to be met by the user for all 6 lights to be turned on.
+Once all 6 requirements have been met, the lock icon next to the input box will also be locked and turned green.
+#####About
+About is designed to show and explain the JavaScript functions used. This also contains the disclaimer disclaiming responsibility for misuse of the application.
+#####Key
+Key provides indication for the lights and what they mean. This also shows what the colours mean as well. 
 #### Evidence of multiple browser testing
 
 #### Evidence of web accessibility testing and results
