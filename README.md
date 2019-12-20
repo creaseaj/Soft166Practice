@@ -48,7 +48,7 @@ These tests are screenshots of the webpages with the input boxes empty, and then
 This will be a comparison against the Web Content Accessibility Guidelines (Quick Reference) as shown [here](https://www.w3.org/WAI/WCAG21/quickref/)<br>
 1. Perceivable
     1. Text Alternatives<br>
-        All non text items have an alt attribute to meet the requirement.
+        All non text items are replaced by text when icons are not available.
         ![Image showing text alternatives](https://github.com/creaseaj/Soft166Practice/blob/master/screenshots/screenshotAccessibilityAltIcons.png)
     2. Time Based Media<br>
         There is no time based media in this application.
