@@ -49,12 +49,16 @@ This will be a comparison against the Web Content Accessibility Guidelines (Quic
 1. Perceivable
     1. Text Alternatives<br>
         All non text items have an alt attribute to meet the requirement.
+        ![Image showing text alternatives]()
     2. Time Based Media<br>
         There is no time based media in this application.
     3. Adaptable<br>
         The use of bootstrap allows the application to be viewed on different devices and at different orientations. It is also simply structured meeting the requirements.
+        ![Image showing application in desktop view]()
+        ![Image showing application in mobile device view]()
     4. Distinguishable<br>
-        Color is not solely used to represent information and there is distinct contrast between background and foreground.
+        Color is not solely used to represent information and there is distinct contrast between background and foreground.<br>
+        Use of this is demonstrated within the application screenshot of the lights page.
 2. Operable
     1. Keyboard Accessible<br>
         The website can be navigated using the keyboard and input boxes can be left using the keyboard. 
@@ -63,14 +67,16 @@ This will be a comparison against the Web Content Accessibility Guidelines (Quic
     3. Seizures and Physical Reactions<br>
         The application contains no content that will cause seizures or physical reactions against the guidelines.
     4. Navigable<br>
-        The applications has page titles and allows for navigation within the webpage compared against the guidelines.
+        The applications has page titles and allows for navigation within the webpage compared against the guidelines.<br>
+        Use of page titles is demonstrated within multiple browser testing, due to the view of the tab aswell as the navbar view.
     5. Input Modalities<br>
         The application supports the functionality required in the guidelines for this section.
 3. Understandable
     1. Readable<br>
         Common english words are used in the application and is of a low reading level.
     2. Predictable<br>
-        Navigation methods are consistent and changes of context are not initiated unexpectedly.
+        Navigation methods are consistent and changes of context are not initiated unexpectedly.<br>
+        The application screenshots section demonstrates this with the same navbar being used throughout the application
     3. Input Assistance<br>
         No error correction is provided because a password is expected and is not required to be in a specific format.
 4. Robust
