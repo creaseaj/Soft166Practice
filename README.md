@@ -49,13 +49,13 @@ This will be a comparison against the Web Content Accessibility Guidelines (Quic
 1. Perceivable
     1. Text Alternatives<br>
         All non text items have an alt attribute to meet the requirement.
-        ![Image showing text alternatives]()
+        ![Image showing text alternatives](https://github.com/creaseaj/Soft166Practice/blob/master/screenshots/screenshotAccessibilityAltIcons.png)
     2. Time Based Media<br>
         There is no time based media in this application.
     3. Adaptable<br>
         The use of bootstrap allows the application to be viewed on different devices and at different orientations. It is also simply structured meeting the requirements.
-        ![Image showing application in desktop view]()
-        ![Image showing application in mobile device view]()
+        <br>Previous screenshots have all been taken in desktop format. Below has been taken in mobile format using firefox's developer settings.
+        ![Image showing application in mobile device view](https://github.com/creaseaj/Soft166Practice/blob/master/screenshots/ScreenshotAccessibilityMobileDevice.png)
     4. Distinguishable<br>
         Color is not solely used to represent information and there is distinct contrast between background and foreground.<br>
         Use of this is demonstrated within the application screenshot of the lights page.
