@@ -1,0 +1,14 @@
+This is the Soft 166 Practice Submission Demonstration.
+This is the index page. It contains links to the three other pages along with a brief description of their purpose. This page also contains links to the other pages through the navbar to keep consistency with the other pages.
+[Switch to lights page]
+This is the main feature of the application and controls the Philips Hue bulbs. It contains six individual requirements for the password and shows this through the table which is colour coded and also includes icons.
+[Type into the input box adsjak19J?k2]
+This input contains no words, common passwords and meets the other four requirements, which changes the lock icon next to the input box to a green locked icon.
+[Clear the input box and type brooklyn]
+Brooklyn has now been entered, which is a common password, which is why the ‘not a common password’ indicator has turned red and includes a cross icon.
+[Clear the input box and type bright]
+Bright has been pasted in, which is a common word, which is why the ‘contains no common words’ indicator has turned red and includes a cross icon.
+[Change to about page]
+This is the about page, it contains explanations of the functions used to check the password as well as a disclaimer for the application.
+[Change to key]
+This is the key page, it contains explanations of how the lights relate to the password requirements as well as explanations for what the colours and icons indicate.

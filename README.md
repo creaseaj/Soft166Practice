@@ -8,7 +8,7 @@ Bootstrap - https://getbootstrap.com/<br>
 jQuery - https://jquery.com/
 
 #### Youtube video
-
+The script for the youtube video is in script.txt
 #### Application screenshots
 ##### Index page
 ![Image of index page](https://github.com/creaseaj/Soft166Practice/blob/master/screenshots/ScreenshotIndex.png)
